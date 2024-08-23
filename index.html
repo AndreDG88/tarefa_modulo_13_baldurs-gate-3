@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <!-- links para CSS e Bootstrap -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Baldur's Gate 3 Guia</title>
+</head>
+<body>
+    <!-- Logo e menu de navegação -->
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="/imagens/logo_baldurs_gate_png.png" alt="logo Baldur's Gate 3">
+                        <h1>Baldur's Gate 3 Guia</h1>
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills"> 
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#personagens">Personagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#perguntas">Perguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#midia">Mídia</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="btn-checar-avisos" type="button" class="btn btn-warning">Comprar</button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <!-- PÁGINA SOBRE -->
+            <section id="sobre">
+                <article class="card text-bg-dark" id="video-topo">
+                    <video autoplay loop controls src="/videos/baldurs-gate-3-official-cinematic.mp4"></video>
+                </article>
+                <img src="/imagens/pagina-sobre-imagem-topo.png" alt="imagem dos personagens">
+                <h2>SOBRE O JOGO</h2>
+                <p>
+                    Reúna seu grupo e retorne aos Forgotten Realms em um conto de camaradagem e traição, sacrifício e sobrevivência, e a atração do poder absoluto. Habilidades misteriosas estão despertando dentro de você, tiradas de um parasita devorador de mentes plantado em seu cérebro. Resista e vire a escuridão contra si mesma. Ou abrace a corrupção e torne-se o mal supremo.
+                </p>
+                <p>
+                    Dos criadores de Divinity: Original Sin 2, chega um RPG de última geração, ambientado no mundo de Dungeons & Dragons.
+                </p>
+                <h2>Reúna sua Party!</h2>
+                <p>
+                    Escolha entre 12 classes e 11 raças do D&D Player's Handbook e crie sua própria identidade, ou jogue como um herói Origin com um histórico feito à mão. Ou enfrente sua corrupção interior como o Dark Urge, um herói Origin totalmente personalizável com sua própria mecânica e história únicas. Não importa quem você escolher ser, aventure-se, saqueie, lute e namore em seu caminho pelos Forgotten Realms e além. Reúna seu grupo. Leve a aventura online como um grupo de até quatro.
+                </p>
+                <!-- SOBRE CARD 1 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-6">
+                        <img src="/imagens/pagina-sobre-imagem-1.png" alt="imagens Baldur's Gate 3">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Uma História Original Expansiva</h3>
+                                <h5 class="card-subtitle">Principais Características</h5>
+                                <p class="card-text">
+                                    Sequestrado, infectado, perdido. Você está se transformando em um monstro, mas conforme a corrupção dentro de você cresce, seu poder também cresce. Esse poder pode ajuda-lo a sobreviver, mas haverá um preço a pagar e, mais do que qualquer habilidade, os laços de confiança que você constrói dentro do seu grupo podem ser sua maior força. Presos em um conflito entre demônios, divindades e forças sinistras de outro mundo, vocês determinarão o destino dos Forgotten Realms juntos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOBRE CARD 2 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">RPG de Próxima Geração</h3>
+                                <h5 class="card-subtitle">Forjado com o novo motor Divinity 4,0</h5>
+                                <p class="card-text">
+                                    Baldur's Gate 3 dá a você uma liberdade sem precedentes para explorar, experimentar e interagir com um mundo próspero cheio de personagens, perigos e enganos. Uma grande narrativa cinematográfica o aproxima mais dos seus personagens do que nunca. Das florestas amaldiçoadas pelas sombras, às cavernas mágicas do Underdark, à cidade extensa de Baldur's Gate, suas ações definem a aventura, mas suas escolhas definem seu legado. você será lembrado. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/imagens/pagina-sobre-imagem-2.png" alt="imagens Baldur's Gate 3">
+                    </div>
+                </div>
+                <!-- SOBRE CARD 3 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-6">
+                        <img src="/imagens/pagina-sobre-imagem-3.png" alt="imagens Baldur's Gate 3">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Multijogador Online para até Quatro Jogadores</h3>
+                                <h5 class="card-subtitle">UNIDOS!</h5>
+                                <p class="card-text">
+                                    Permite que você combine suas forças em combate e ataque inimigos simultaneamente, ou divida seu grupo para que cada um siga suas próprias missões e agendas. Crie o plano perfeito juntos... Ou introduza um elemento de caos quando seus amigos menos esperam. Relacionamentos são complicados. Especialmente quando você tem um parasita em seu cérebro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PÁGINA PERSONAGENS -->
+            <section id="personagens">
+                <h2>PERSONAGENS</h2>
+                <div class="container">
+                    <div class="row" id="grid-personagens">
+                        <!-- astarion -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-astarion.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">ASTARION</h3>
+                                    <h4 class="card-subtitle">Geração de Vampiros</h4>
+                                    <p class="card-text">
+                                        Astarion rondava a noite como um vampiro por séculos, forçado a seguir as ordens de seu mestre sádico, Cazador: seduzir todos os tolos com um pulso e atraí-los de volta ao covil de Cazador. Livre por enquanto, Astarion fará de tudo para manter sua vida na luz. Ele só sonsegue ver uma maneira de garantir sua liberdade para sempre: se tornar muitas vezes mais poderoso do que seu antigo agressor jamais poderia sonhar em ser.
+                                    </p>
+                                    <p>
+                                        Seu corpo está sempre contaminado pelas cicatrizes intrincadas e padronizadas que Cazador esculpiu em suas costas, e o vampiro mais velho parece determinado a enviar ondas de caçadores buscando capturar sua prole perdida.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gale -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-gale.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">GALE</h3>
+                                    <h4 class="card-subtitle">Mago Prodígio</h4>
+                                    <p class="card-text">
+                                        Gale de Waterdeep era um arquimago prodigioso, seus talentos lhe renderam a atenção de Mystra, a deusa da magia. Ao lado dela, ele aprendeu tudo o que os mortais podem realizar com a trama, com o tempo ganhando seu lugar como seu amante e seu escolhido. E ainda assim, ele não estava satisfeito.
+                                    </p>
+                                    <p>
+                                        Em uma tentativa de provar que estava pronto para um poder ainda maior, ele acidentalmente liberou "o orbe", um fragmento altamente volátil de trama pura, corrompido pela magia Netherese, que se enterrou em seu peito. Expulso por Mystra, humilhado por sua queda, ele faz tudo o que pode para impedir a detonação cataclísmica do orbe, observando sua chance de recuperar tudo o que perdeu e muito mais...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lae`zel -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-laezel.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Lae`zel</h3>
+                                    <h4 class="card-subtitle">Guerreira Feroz</h4>
+                                    <p class="card-text">
+                                        Caindo das estrelas na Costa da Espada, Lae`zel é uma guerreira feroz, mesmo para os padrões da sociedade githyanki militante. Quando confrontada com a possibilidade de se tornar uma devoradora de mentes, o monstro que ela dedicou sua vida a derrotar, ela deve provar seu valor e ganhar o direito de se juntar ao seu povo novamente -- se eles não a executarem primeiro. A força e a determinação de Lae`zel serão suficientes para provar seu valor à Rainha Vlaakith, ou ela deve trilhar outro caminho no exílio?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Shadowheart -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-shadowheart.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Shadowheart</h3>
+                                    <h4 class="card-subtitle">Guerreira Leal</h4>
+                                    <p class="card-text">
+                                        Uma devota clériga de Shar, deusa da escuridão e da perda, Shadowheart concordou em ter suas memórias apagadas como parte de uma missão sagrada. Agora a única sobrevivente, ela deve entregar uma relíquia poderosa de volta para seus parentes para ganhar o amor de Shar e ter suas memórias restauradas - mas o tempo todo, ela é atormentada por uma magia estranha e dolorosa que ela luta para entender.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Wyll -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-wyll.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Wyll</h3>
+                                    <h4 class="card-subtitle">Uma Lenda Viva</h4>
+                                    <p class="card-text">
+                                        De um descendente de uma famosa casa Balduriana para uma vida de aventura na estrada, a vida de Wyll como caçador de monstros chamado de lâmina das fronteiras fez dele um dos corações pulsantes da costa da espada. Embora ele tenha feito grandes feitos para o povo da costa, a fonte de seu poder permanece em seguedo. A cambion Mizona atraiu Wyll para um pacto de feiticeiro em um momento com muitas vidas em jogo, e o amaldiçoou com o dever de caçar seus inimigos. Mizora apenas pede a Wyll para sacrificar criaturas diabólicas para ela, mas as ambições de um cambion são sempre inconstantes, e Wyll deseja escapar do pacto antes que seu preço se torne cruel.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- karlach -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-karlach.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Karlach</h3>
+                                    <h4 class="card-subtitle">Fúria de Avernus</h4>
+                                    <p class="card-text">
+                                        Recém-escapada do inferno, Karlach está finalmente livre do arqui demônio Zariel - mas não do núcleo infernal que Zariel plantou em seu peito. Com seu primeiro gostinho de liberdade em dez anos, Karlach está ansiosa para encontrar uma solução para o núcleo que está queimando cada vez mais forte antes que ele a queime completamente.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The Dark Urge -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/pagina-personagens-TheDarkUrge.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">The Dark Urge</h3>
+                                    <h4 class="card-subtitle">O desejo sombrio</h4>
+                                    <p class="card-text">
+                                        Você não se lembra de nada além de um caminho pavimentado com sangue. Uma crueldade inimaginável sussura para você de dentro. Você consegue escapar? Você ao menos iria querer?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="perguntas">
+                <h2>PERGUNTAS FREQUENTES</h2>
+                <P>
+                    Entendemos que sempre surgem dúvidas quando se esta pensando em iniciar uma nova jornada no mundo de um novo jogo, então para facilitar, aqui vão as respostas das perguntas mais frequentes:
+                </P>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                                EM QUAIS PLATAFORMAS O BALDUR'S GATE 3 ESTÁ DISPONÍVEL?
+                            </button>
+                        </div>
+                        <div id="resposta1" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                O jogo está atualmente disponível em diversas plataformas, incluindo PC (Steam e GOG), PlayStation 5 e GeForce Now.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                                QUAIS SÃO OS REQUISITOS DE SISTEMA PARA O JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>Mínimo:</strong> requer um processador de 64 bits e um sistema operacional SO: Windows 10 de 64 bits Processador: Intel I5 4690 / AMD FX 8350 Memória: 8 GB de RAM Placa de vídeo: Nvidia GTX 970 / RX 480 (4 GB+ de VRAM) DirectX: versão 11 Armazenamento: 150 GB de espaço disponível
+                                </p>
+                                <p>
+                                    <strong>Recomendado:</strong> requer um processador de 64 bits e um sistema operacional SO: Windows 10 de 64 bits Processador: Intel i7 8700K / AMD r5 3600 Memória: 16 GB de RAM Placa de vídeo: Nvidia 2060 Super / RX 5700 XT (8 GB+ de VRAM) DirectX: versão 11 Armazenamento: 150 GB de espaço disponível
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                                POSSO JOGAR OFFLINE?
+                            </button>
+                        </div>
+                        <div id="resposta3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Sim, você pode jogar o jogo offline. No entanto, certos recursos, como modos multijogador ou eventos online, podem exigir uma conexão com a internet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta4">
+                                HÁ ALGUMA COMPRA NO JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Não, não há compras no jogo em nosso jogo. Acreditamos em fornecer uma experiência de jogo completa e imersiva sem a necessidade de compras adicionais. Aproveite o jogo ao máximo sem quaisquer custos adicionais ou microtransações.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta5">
+                                EXISTE UMA CAMPANHA PARA UM JOGADOR NO JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta5" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Absolutamente! O jogo apresenta uma campanha envolvente para um jogador, repleta de narrativas envolventes e missões emocionantes. Experimente a narrativa única do jogo enquanto embarca em uma aventura solo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    Agora que já sabe o que precisa, vamos começar a sua jornada!?
+                </p>
+            </div>
+            </section>
+            <!-- PÁGINA MÍDIA -->
+            <section id="midia">
+                <h2>MÍDIAS</h2>
+                <p>
+                    E é claro que depois de tanta explicação sobre baldurs-gate-3, você não podia ir embora sem um brinde né? Então deixamos aqui no final uma seleção de belas imagens para que possa usar aonde quiser!
+                </p>
+                <!-- SlideShow -->
+            <div class="container carousel-slide">
+                <div id="carousel-controles1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-1.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 01"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-2.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 02"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-3.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 03"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-4.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 04"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-5.jpeg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 05"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-6.jpeg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 06"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-7.jpeg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 07"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-8.jpeg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 08"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-9.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 09"/>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="/imagens/pagina-midia-imagem-10.jpg" alt="Imagem de amostra sobre o Jogo baldurs-gate-3 10"/>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-controles1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-controles1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="0" class="active"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="1"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="2"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="3"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="4"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="5"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="6"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="7"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="8"></button>
+                            <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="9"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <p>
+                    Esperamos que tenha curtido esse passeio por Forgotten Realms, esperamos ouvir sobre suas aventuras!
+                </p>
+            </section>
+        </div>
+    </main>
+    <!--rodapé da página-->
+    <footer id="social-links">
+        <div class="nos-acompanhe">
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.instagram.com/andre.soares.designer/" title="Siga-nos no Instagram">
+                        <img src="/icones/instagram.png" alt="Logo do Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AndreDG88" title="Siga-nos no GitHub">
+                        <img src="/icones/github-mark-white.png" alt="Logo do GitHub" />
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Página ficticia, apenas para fins de estudo em programação
+            </p>
+        </div>
+        <div>
+            <p>
+                &copy; Baldur's Gate 3 Guia - Todos os direitos reservados - 2024.
+                Desenvolvido por André Soares
+            </p>
+        </div>
+    </footer>
+    <!-- Configuração de Toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div data-bs-autohide="false" class="toast" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>AVISO!</strong>
+            </header>
+            <div class="toast-body">
+                Você será redirecionado para a página de compra de Baldur's Gate 3 na Steam.
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger">
+                        Agora não
+                    </button>
+                    <a class="btn btn-success" href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/" target="_blank">Vamos lá!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- links para Javascript e Bootstrap -->
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
